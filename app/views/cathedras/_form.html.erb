@@ -1,0 +1,37 @@
+<%= form_for(@cathedra) do |f| %>
+  <% if @cathedra.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@cathedra.errors.count, "error") %> prohibited this cathedra from being saved:</h2>
+
+      <ul>
+      <% @cathedra.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div class="field">
+      <%= f.label "Название" %><br/>
+      <%= f.text_field :cath_name %>
+    </div>
+    <div class="field">
+      <%= f.label "Заведующий кафедрой" %><br/>
+      <%= f.text_field :cath_head %>
+    </div>
+    <div class="field">
+      <%= f.label "Секретарь" %><br/>
+      <%= f.text_field :cath_secretary %>
+    </div>
+    <div class="field">
+      <%= f.label "Кабинет" %><br/>
+      <%= f.text_field :cath_cabinet %>
+    </div>
+    <div class="field">
+      <%= f.label "Телефон" %><br/>
+      <%= f.text_field :cath_phone %>
+    </div>
+  <div class="actions">
+    <%= f.submit "Добавить кафедру" %>
+  </div>
+<% end %>

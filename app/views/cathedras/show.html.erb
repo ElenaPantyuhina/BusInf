@@ -1,0 +1,11 @@
+<h1>Кафедра</h1><br/>
+<p id="notice"><%= notice %></p>
+<p>Наименование: <%= @cathedra.cath_name %></p>
+<p>Заведующий: <%= @cathedra.cath_head %></p>
+<p>Секретарь: <%= @cathedra.cath_secretary %></p>
+<p>Кабинет: <%= @cathedra.cath_cabinet %></p>
+<p>Телефон: <%= @cathedra.cath_phone %></p>
+
+
+<%= link_to 'Редактировать', edit_cathedra_path(@cathedra) %> |
+<%= link_to 'Назад', cathedras_path %>

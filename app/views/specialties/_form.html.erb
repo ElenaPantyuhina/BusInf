@@ -1,0 +1,33 @@
+<%= form_for(@specialty) do |f| %>
+  <% if @specialty.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@specialty.errors.count, "error") %> prohibited this specialty from being saved:</h2>
+
+      <ul>
+      <% @specialty.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+    <div class="field">
+      <%= f.label "Наименование" %><br/>
+      <%= f.text_field :spec_name, :maxlength => 100 %>
+    </div>
+    <div class="field">
+      <%= f.label "Сокращение" %><br/>
+      <%= f.text_field :spec_reduction, :maxlength => 5 %>
+    </div>
+    <div class="field">
+      <%= f.label "Кафедра" %><br/>
+      <%= f.select :spec_cathedra, Cathedra.all.collect { |c| [c.cath_name, c.id]}, {:include_blank => 'Выберите кафедру'}%>
+    </div>
+    <div class="field">
+      <%= f.label "Описание" %><br/>
+      <%= f.text_area :spec_description, :rows => 6 %>
+    </div>
+
+  <div class="actions">
+    <%= f.submit "Добавить специальность"%>
+  </div>
+<% end %>

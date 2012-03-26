@@ -11,20 +11,67 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120323150356) do
+ActiveRecord::Schema.define(:version => 20120326185025) do
 
-  create_table "students", :force => true do |t|
+  create_table "cathedras", :force => true do |t|
+    t.string   "cath_name"
+    t.string   "cath_head"
+    t.string   "cath_secretary"
+    t.string   "cath_cabinet"
+    t.string   "cath_phone"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
+  create_table "cell_skeds", :force => true do |t|
+    t.integer  "number_pair"
+    t.time     "start_time"
+    t.time     "end_time"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "courses", :force => true do |t|
+    t.integer  "numder"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
+  create_table "groups", :force => true do |t|
+    t.integer  "gr_specialty", :null => false
+    t.integer  "gr_course",    :null => false
+    t.string   "gr_cipher",    :null => false
+    t.integer  "gr_quantity"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  create_table "specialties", :force => true do |t|
+    t.string   "spec_name"
+    t.string   "spec_reduction"
+    t.integer  "spec_cathedra"
+    t.string   "spec_description"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "students", :force => true do |t|
+    t.string   "student_surname"
+    t.string   "student_name"
+    t.string   "student_secondname"
+    t.integer  "student_group"
+    t.datetime "created_at",                            :null => false
+    t.datetime "updated_at",                            :null => false
+    t.boolean  "student_captain",    :default => false
+  end
+
   create_table "teachers", :force => true do |t|
-    t.string   "name"
-    t.string   "secondname"
-    t.string   "surname"
-    t.integer  "cathedra"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "teach_name"
+    t.string   "teach_secondname"
+    t.string   "teach_surname"
+    t.integer  "teach_cathedra"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
 end

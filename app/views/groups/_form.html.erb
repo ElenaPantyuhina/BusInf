@@ -1,0 +1,33 @@
+<%= form_for(@group) do |f| %>
+  <% if @group.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@group.errors.count, "error") %> prohibited this group from being saved:</h2>
+
+      <ul>
+      <% @group.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+    <div class="field">
+      <%= f.label "Специальность" %><br/>
+      <%= f.select :gr_specialty, Specialty.all.collect { |spec| [spec.spec_name, spec.id]}, {:include_blank => "Выберите специальность"} %>
+    </div>
+    <div class="field">
+      <%= f.label "Курс" %><br/>
+      <%= f.select :gr_course, Course.all.collect { |c| [c.numder, c.id] }, {:include_blank => "Выберите курс" } %>
+    </div>
+    <div class="field">
+      <%= f.label "Шифр" %><br/>
+      <%= f.text_field :gr_cipher, :maxlength => 6 %>
+    </div>
+    <div class="field">
+      <%= f.label "Количество студентов в группе" %><br/>
+      <%= f.text_field :gr_quantity, :maxlength => 2 %>
+    </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

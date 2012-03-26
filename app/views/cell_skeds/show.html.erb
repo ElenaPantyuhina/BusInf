@@ -1,0 +1,9 @@
+<h1>Ячейка расписания</h1><br/>
+<p id="notice"><%= notice %></p>
+<p>Номер пары: <%= @cell_sked.number_pair %></p>
+<p>Время начала занятия: <%= @cell_sked.start_time %></p>
+<p>Время окончания занятия: <%= @cell_sked.end_time %></p><br/>
+
+
+<%= link_to 'Редактировать', edit_cell_sked_path(@cell_sked) %> |
+<%= link_to 'Назад', cell_skeds_path %>

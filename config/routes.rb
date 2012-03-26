@@ -1,4 +1,14 @@
 BusInf::Application.routes.draw do
+  resources :groups
+
+  resources :cell_skeds
+
+  resources :specialties
+
+  resources :courses
+
+  resources :cathedras
+
   resources :students
 
   resources :teachers

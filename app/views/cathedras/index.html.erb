@@ -1,0 +1,28 @@
+<h1>Список кафедр</h1>
+
+<table>
+  <tr>
+    <th>Наименование</th>
+    <th>Заведующий</th>
+    <th>Секретарь</th>
+    <th>Кабинет</th>
+    <th>Телефон</th>
+  </tr>
+
+<% @cathedras.each do |cathedra| %>
+  <tr>
+    <td><%= cathedra.cath_name %></td>
+    <td><%= cathedra.cath_head %></td>
+    <td><%= cathedra.cath_secretary %></td>
+    <td><%= cathedra.cath_cabinet %></td>
+    <td><%= cathedra.cath_phone %></td>
+    <td><%= link_to 'Посмотреть', cathedra %></td>
+    <td><%= link_to 'Редактировать', edit_cathedra_path(cathedra) %></td>
+    <td><%= link_to 'Удалить', cathedra, confirm: 'Действительно удалить?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Добавить кафедру', new_cathedra_path %>

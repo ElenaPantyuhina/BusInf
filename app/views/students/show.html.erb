@@ -1,5 +1,12 @@
+<h1>Студент</h1>
 <p id="notice"><%= notice %></p>
+<p>Фамилия: <%= @student.student_surname %></p>
+<p>Имя: <%= @student.student_name %></p>
+<p>Отчество: <%= @student.student_secondname %></p>
+<p>Группа: <%= @student.student_group %></p><br/>
+<% if @student.student_captain == true %>
+    <p>Староста группы</p>
+<% end %>
 
-
-<%= link_to 'Edit', edit_student_path(@student) %> |
-<%= link_to 'Back', students_path %>
+<%= link_to 'Редактировать', edit_student_path(@student) %> |
+<%= link_to 'Назад', students_path %>

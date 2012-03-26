@@ -1,0 +1,29 @@
+<%= form_for(@cell_sked) do |f| %>
+  <% if @cell_sked.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@cell_sked.errors.count, "error") %> prohibited this cell_sked from being saved:</h2>
+
+      <ul>
+      <% @cell_sked.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+    <div class="field">
+      <%= f.label "Номер пары" %><br/>
+      <%= f.text_field :number_pair %>
+    </div>
+    <div class="field">
+      <%= f.label "Время начала пары" %><br/>
+      <%= f.text_field :start_time %>
+    </div>
+    <div class="field">
+      <%= f.label "Время окончания пары" %><br/>
+      <%= f.text_field :end_time %>
+    </div>
+
+  <div class="actions">
+    <%= f.submit "Сохранить" %>
+  </div><br/>
+<% end %>
