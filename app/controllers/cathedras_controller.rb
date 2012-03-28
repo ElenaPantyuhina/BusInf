@@ -44,7 +44,7 @@ class CathedrasController < ApplicationController
 
     respond_to do |format|
       if @cathedra.save
-        format.html { redirect_to @cathedra, notice: 'Кафедра успешно добавлена.' }
+        format.html { redirect_to @cathedra, notice: 'Cathedra was successfully created.' }
         format.json { render json: @cathedra, status: :created, location: @cathedra }
       else
         format.html { render action: "new" }
@@ -60,7 +60,7 @@ class CathedrasController < ApplicationController
 
     respond_to do |format|
       if @cathedra.update_attributes(params[:cathedra])
-        format.html { redirect_to @cathedra, notice: 'Данные о кафедре успешно обновлены' }
+        format.html { redirect_to @cathedra, notice: 'Cathedra was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
