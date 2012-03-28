@@ -2,83 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="423cf0ab-3898-41c3-877d-89ae48a83966" name="Default" comment="24/03/2012">
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_relation.MYI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/teachers.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\procs_priv.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_category.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_transition.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\proc.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\procs_priv.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\host.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_keyword.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_category.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\db\migrate\20120323143855_create_teachers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\db.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\proc.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\host.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_relation.MYD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/teachers/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_leap_second.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\db.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_name.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\columns_priv.frm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/teachers.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone.MYD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/teachers/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\func.frm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/students.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/students/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/teachers/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\func.MYD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/students/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_leap_second.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_transition_type.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_category.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_transition_type.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\procs_priv.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_transition.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\host.MYD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/students/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\tables_priv.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_topic.MYI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/student.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_keyword.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\user.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_leap_second.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\user.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_relation.frm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/teacher.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\db\migrate\20120323150356_create_students.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/students_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\tables_priv.MYI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/teachers_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_topic.MYD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/students_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_name.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\user.MYD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/students.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\db.MYI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/teachers/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/students/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\columns_priv.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\tables_priv.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\columns_priv.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_keyword.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_name.MYD" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_transition.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\func.MYI" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/students/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\proc.MYI" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\time_zone_transition_type.frm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\BusInf\mysql\data\mysql\help_topic.frm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/teachers_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/teachers/show.html.erb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/users.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20120328105009_create_users.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/users_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/users_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/user_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BusInf.iml" afterPath="$PROJECT_DIR$/.idea/BusInf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BusInf.iml" afterPath="$PROJECT_DIR$/.idea/BusInf.iml" />
     </list>
     <ignored path="BusInf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,16 +50,16 @@
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="6" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+            <state line="34" column="20" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.erb">
+      <file leaf-file-name="20120328105009_create_users.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20120328105009_create_users.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="30" selection-start="977" selection-end="977" vertical-scroll-proportion="0.41880342">
+            <state line="15" column="70" selection-start="454" selection-end="454" vertical-scroll-proportion="0.615942">
               <folding />
             </state>
           </provider>
@@ -137,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/teachers/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20120325214353_create_cell_skeds.rb" />
         <option value="$PROJECT_DIR$/app/views/cell_skeds/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/cell_skeds/new.html.erb" />
@@ -153,6 +94,7 @@
         <option value="$PROJECT_DIR$/app/views/students/show.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20120326185025_create_groups.rb" />
         <option value="$PROJECT_DIR$/app/views/groups/_form.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20120328105009_create_users.rb" />
       </list>
     </option>
   </component>
@@ -189,9 +131,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Favorites" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,6 +199,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -275,10 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groups" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,20 +238,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings.github" />
+    <property name="recentsLimit" value="5" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Rails.Development: BusInf">
+  <component name="RunManager" selected="Rake.db:migrate">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="BusInf" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -321,7 +263,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
         <env name="RAILS_ENV" value="development" />
-        <env name="VERSION" value="20120325122528" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
@@ -427,6 +368,13 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -454,13 +402,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
@@ -590,7 +531,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
-    <configuration useDefault="true">C:\Users\User\AppData\Roaming\Subversion</configuration>
+    <configuration useDefault="true">C:\Documents and Settings\Admin\Application Data\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -602,7 +543,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="576" extended-state="6" />
+    <frame x="-4" y="-4" width="1288" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.67114097" order="3" side_tool="false" content_ui="tabs" />
@@ -610,9 +551,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30706245" sideWeight="0.67114097" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31305757" sideWeight="0.67328244" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42058167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32671756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -670,112 +611,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cathedras/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="513" selection-end="513" vertical-scroll-proportion="-11.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cathedras/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cathedras/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cathedras/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120326175532_add_student_captain.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="204" selection-end="204" vertical-scroll-proportion="0.43037975">
-          <folding />
-        </state>
+        <state line="6" column="45" selection-start="204" selection-end="204" vertical-scroll-proportion="0.43037975" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/students/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="31" selection-start="899" selection-end="899" vertical-scroll-proportion="-7.6923075">
-          <folding />
-        </state>
+        <state line="31" column="31" selection-start="899" selection-end="899" vertical-scroll-proportion="-7.6923075" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/students/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/students/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="485" selection-end="485" vertical-scroll-proportion="0.072649576">
-          <folding />
-        </state>
+        <state line="22" column="5" selection-start="485" selection-end="485" vertical-scroll-proportion="0.072649576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/students/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="316" selection-end="316" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
+        <state line="8" column="6" selection-start="316" selection-end="316" vertical-scroll-proportion="-5.230769" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120326185025_create_groups.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="325" selection-end="325" vertical-scroll-proportion="0.74725276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/cathedras_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="80" selection-start="1018" selection-end="1018" vertical-scroll-proportion="2.0269232">
-          <folding />
-        </state>
+        <state line="12" column="24" selection-start="325" selection-end="325" vertical-scroll-proportion="0.74725276" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="6" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+        <state line="34" column="20" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120328105009_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="977" selection-end="977" vertical-scroll-proportion="0.41880342">
+        <state line="15" column="70" selection-start="454" selection-end="454" vertical-scroll-proportion="0.615942">
           <folding />
         </state>
       </provider>
