@@ -1,3 +1,4 @@
+# config : utf-8
 class CathedrasController < ApplicationController
   # GET /cathedras
   # GET /cathedras.json
@@ -44,7 +45,7 @@ class CathedrasController < ApplicationController
 
     respond_to do |format|
       if @cathedra.save
-        format.html { redirect_to @cathedra, notice: 'Cathedra was successfully created.' }
+        format.html { redirect_to @cathedra, notice: 'Кафедра успешно создана' }
         format.json { render json: @cathedra, status: :created, location: @cathedra }
       else
         format.html { render action: "new" }
@@ -60,7 +61,7 @@ class CathedrasController < ApplicationController
 
     respond_to do |format|
       if @cathedra.update_attributes(params[:cathedra])
-        format.html { redirect_to @cathedra, notice: 'Cathedra was successfully updated.' }
+        format.html { redirect_to @cathedra, notice: 'Кафедра успешно обновлена' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

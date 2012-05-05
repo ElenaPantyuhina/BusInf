@@ -1,13 +1,191 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree .
-*/
+*{
+    margin: 0 auto;
+}
+html{
+    background: #fff;
+    font: 100% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+    margin: 0px 0px;
+    min-width: 850px;
+}
+a{
+    color: #207DB0;
+}
+hr{
+    background: #207DB0;
+    height: 1px;
+}
+dd{
+    padding-left: 30px;
+}
+.head{
+    background: #27568C;
+    text-align: center;
+}
+div.contact{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+#cont{
+    margin: 2px 0 0 0;
+    padding: 0;
+}
+#cont li.first.top-level-items{border-width: 0;}
+#cont li{
+    float: left;
+    list-style: none;
+    border: none;
+}
+#cont li a{
+    display: block;
+    padding: 1px 6px;
+    text-decoration: none;
+    color: #ffffff;
+    white-space: nowrap;
+}
+#cont li.top-level-items{
+    border: solid #ffffff;
+    border-width: 0 0 0 1px;
+}
+.main{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: justify;
+}
+div.basement{
+    height: 70px;
+    background: #27568C;
+    text-align: center;
+    line-height: 3em;
+    border-top: 10px solid #ffffff;
+    font-size: 80%;
+    color: #fff;
+}
+#up{
+    float: left;
+    padding: 10px 0 0 10px;
+}
+/*стили меню*/
+ul#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    float: left;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    margin: 0 0 40px;
+    background-color: #27568C;
+    min-width: 800px;
+}
+#menu .select, #menu .current{
+    margin-left: 5%;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+#menu li{
+    font-family: Calibri, sans-serif;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+#menu .select a, #menu .current a{
+    display: block;
+    height: 40px;
+    float: left;
+    background: url("nav.png") no-repeat left top;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    white-space: nowrap;
+    margin-right: 2px;
+    position: relative;
+    z-index: 500;
+    text-decoration: blink;
+}
+#menu .select a b, #menu .current a b, #menu .select a .selected{
+    height: 100%;
+    display: block;
+   /* background: url("nav.png") no-repeat right top;*/
+    padding: 0 20px 0 15px;
+    color: #606060
+}
+#menu .select a:hover, #menu .select li:hover a {
+    background-position: 0 -50px;
+    cursor: pointer;
+}
+#menu .select a:hover b, #menu .select li:hover a b{
+    background-position: 100%, -50px;
+    color: #fff;
+}
+#menu .sub{
+    display: none;
+}
+#menu .current a{
+    background-position: 0 -50px;
+    border-color: #046;
+}
+#menu .current a b{
+    background-position: 100% -50px;
+    color: #fff;
+}
+#menu .sub li a:hover, #menu .select a:hover .sub li a:hover, #menu .select li:hover .sub li a:hover, #menu .sub_active .current_sub a, #menu .sub_active a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+#menu .select li a:hover .sub, #menu .select li:hover .sub, #menu .sub_active{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    top: 40px;
+    left: 0;
+    background: #006798;
+    padding: 0;
+    z-index: 100;
+}
+#menu .sub_active{
+    z-index: 10;
+}
+#menu .sub, #menu .sub_active{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+* html #menu .sub_active, * html .select a:hover .sub{
+    z-index: -1;
+    margin-top: 0;
+    margin-top: 1px;
+}
+#menu .sub_active a{
+    height: 25px;
+    float: left;
+    text-decoration: none;
+    line-height: 24px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+#menu .sub_active a, #menu .select a:hover .sub li a, #menu .select li:hover .sub li a{
+    display: inline;
+    background: none;
+    padding: 0 10px;
+    margin: 0;
+    font-size: 13px;
+    width: auto;
+    white-space: nowrap;
+    font-weight: normal;
+    border: 0;
+    color: #C9F1FF;
+    height: 35px;
+    line-height: 35px;
+}
