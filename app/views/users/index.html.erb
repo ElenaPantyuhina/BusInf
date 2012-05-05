@@ -1,14 +1,23 @@
-<h1>Listing users</h1>
+<h1>Список пользователей</h1>
 
 <table>
   <tr>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Фамилия</th>
+    <th>Имя</th>
+    <th>Отчество</th>
+    <th>Пароль</th>
+    <th>E-mail</th>
+    <th>ICQ</th>
   </tr>
 
 <% @users.each do |user| %>
   <tr>
+    <td><%= user.user_surname %></td>
+    <td><%= user.user_name %></td>
+    <td><%= user.user_secondname %></td>
+    <td><%= user.user_password %></td>
+    <td><%= user.user_email %></td>
+    <td><%= user.user_icq %></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
     <td><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></td>

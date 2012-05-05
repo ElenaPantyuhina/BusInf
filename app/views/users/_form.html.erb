@@ -1,4 +1,5 @@
 <%= form_for(@user) do |f| %>
+    <% render 'shared/error_messages' %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
@@ -11,7 +12,31 @@
     </div>
   <% end %>
 
+    <div class="field">
+      <%= f.label "Фамилия" %><br/>
+      <%= f.text_field :user_surname %>
+    </div>
+    <div class="field">
+      <%= f.label "Имя" %><br/>
+      <%= f.text_field :user_name %>
+    </div>
+    <div class="field">
+      <%= f.label "Отчество" %><br/>
+      <%= f.text_field :user_secondname %>
+    </div>
+    <div class="field">
+      <%= f.label "Пароль" %><br/>
+      <%= f.password_field :user_password %>
+    </div>
+    <div class="field">
+      <%= f.label "Подтверждение пароля" %><br/>
+      <%= f.password_field :user_password_confirmation %>
+    </div>
+    <div class="field">
+      <%= f.label "E-mail" %><br/>
+      <%= f.text_field :user_email %>
+    </div><br/>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :value => "Зарегистрироваться" %>
   </div>
 <% end %>
