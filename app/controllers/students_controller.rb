@@ -1,3 +1,4 @@
+# encoding: utf-8
 class StudentsController < ApplicationController
   # GET /students
   # GET /students.json
@@ -44,7 +45,7 @@ class StudentsController < ApplicationController
 
     respond_to do |format|
       if @student.save
-        format.html { redirect_to @student, notice: 'Student was successfully created.' }
+        format.html { redirect_to @student, notice: 'Студент успешно добавлен' }
         format.json { render json: @student, status: :created, location: @student }
       else
         format.html { render action: "new" }
@@ -60,7 +61,7 @@ class StudentsController < ApplicationController
 
     respond_to do |format|
       if @student.update_attributes(params[:student])
-        format.html { redirect_to @student, notice: 'Student was successfully updated.' }
+        format.html { redirect_to @student, notice: 'Студент успешно обновлен' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -79,5 +80,9 @@ class StudentsController < ApplicationController
       format.html { redirect_to students_url }
       format.json { head :no_content }
     end
+  end
+
+  def find_group
+    @group = Group.find(params[:id])
   end
 end

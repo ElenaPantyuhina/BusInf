@@ -25,7 +25,7 @@
     </div>
     <div class="field">
       <%= f.label "Группа" %><br/>
-      <%= f.text_field :student_group %>
+      <%= f.select :student_group, Group.all.collect {|gr| [gr.gr_cipher, gr.id]}, {:include_blank => 'Выберите группу'} %>
     </div>
     <div class="field">
       <%= f.check_box :student_captain %>
