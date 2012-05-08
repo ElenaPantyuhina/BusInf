@@ -35,6 +35,10 @@
     <div class="field">
       <%= f.label "E-mail" %><br/>
       <%= f.text_field :user_email %>
+    </div>
+    <div class="field">
+      <%= f.label "Статус" %><br/>
+      <%= f.select( :user_status, { "Студент" => "student", "Преподаватель" => "teacher"}) %>
     </div><br/>
   <div class="actions">
     <%= f.submit :value => "Зарегистрироваться" %>

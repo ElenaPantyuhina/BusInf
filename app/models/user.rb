@@ -1,7 +1,7 @@
 # encoding: utf-8
 class User < ActiveRecord::Base
   attr_accessor :user_password
-  attr_accessible :user_name, :user_surname, :user_secondname, :user_password, :user_email, :user_password_confirmation
+  attr_accessible :user_name, :user_surname, :user_secondname, :user_password, :user_email, :user_password_confirmation, :user_status
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 

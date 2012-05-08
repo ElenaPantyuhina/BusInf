@@ -47,12 +47,11 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to @user, notice: 'Пользователь успешно добавлен' }
-        format.json { render json: @user, status: :created, location: @user }
+        redirect_to @user
       else
         @title = "Регистрация пользователя"
-        format.html { render action: "new" }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
+        render 'new'
+        #format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
   end
