@@ -1,5 +1,10 @@
+<h1>Преподаватель</h1><br/>
 <p id="notice"><%= notice %></p>
+<p>Фамилия: <%= @teacher.teach_surname %></p>
+<p>Имя: <%= @teacher.teach_name %></p>
+<p>Отчество: <%= @teacher.teach_secondname %></p>
+<p>Кафедра: <%= @teacher.teach_cathedra %></p><br/>
 
 
-<%= link_to 'Edit', edit_teacher_path(@teacher) %> |
-<%= link_to 'Back', teachers_path %>
+<%= link_to 'Редактировать', edit_teacher_path(@teacher) %> |
+<%= link_to 'Назад', teachers_path %>

@@ -1,0 +1,26 @@
+<h1>Расписание звонков</h1>
+
+<table>
+  <tr>
+    <th>Номер пары</th>
+    <th>Начало занятия</th>
+    <th>Окончание занятия</th>
+  </tr>
+
+<% @cell_skeds.each do |cell_sked| %>
+  <tr>
+    <td><%= cell_sked.number_pair %></td>
+    <% ts = cell_sked.start_time %>
+    <td><%= ts.strftime("%H:%M") %></td>
+    <% te = cell_sked.end_time %>
+    <td><%= te.strftime("%H:%M") %></td>
+    <td><%= link_to 'Посмотреть', cell_sked %></td>
+    <td><%= link_to 'Редактировать', edit_cell_sked_path(cell_sked) %></td>
+    <td><%= link_to 'Удалить', cell_sked, confirm: 'Действительно удалить?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Добавить', new_cell_sked_path %>

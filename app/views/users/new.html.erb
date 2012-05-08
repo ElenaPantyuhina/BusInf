@@ -1,0 +1,45 @@
+<div id="menu">
+	<ul class="select"> <!-- <<<== активное меню -->
+      <li><b><%= link_to "О кафедре", root_path %></b>
+        <ul class="sub"> <!-- <<<== активное подменю меню -->
+          <li><%= link_to "История кафедры", root_path %></li>
+          <li><a href="">Преподавательский состав</a></li>
+          <li><a href="">Направления подготовки</a></li> <!-- <<<== активная страница -->
+        </ul>
+      </li>
+  </ul>
+
+	<ul class="select">
+		<li><a href=""><b>Образовательная деятельность</b></a>
+			<ul class="sub">
+				<li><a href="">Направления подготовки</a></li>
+				<li><a href="">Прикладная информатика</a></li>
+				<li><a href="">Бизнес-информатика</a></li>
+			</ul>
+		</li>
+	</ul>
+
+	<ul class="select">
+		<li><a href=""><b>Научная деятельность</b></a>
+			<ul class="sub">
+				<li><a href="">Методические материалы</a></li>
+				<li><a href="">Публикации</a></li>
+			</ul>
+		</li>
+	</ul>
+
+	<ul class="current">
+		<li><a href=""><b>Личный кабинет</b></a>
+			<ul class="sub_active">
+				<li><a href="">Вход</a></li>
+				<li class="current_sub"><%= link_to "Pегистрация пользователя", signup_path %></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class="main">
+<h1>Регистрация нового пользователя</h1><br/>
+
+<%= render 'form' %>
+
+</div>

@@ -11,24 +11,30 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :surname %><br/>
-    <%= f.text_field :surname %>
-  </div>
-  <div class="field">
-    <%= f.label :name %><br/>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :secondname %><br/>
-    <%= f.text_field :secondname %>
-  </div>
-  <div class="field">
-    <%= f.label :group %><br/>
-    <%= f.text_field :group %>
-  </div>
+    <div class="field">
+      <%= f.label "Фамилия" %><br/>
+      <%= f.text_field :student_surname %>
+    </div>
+    <div class="field">
+      <%= f.label "Имя" %><br/>
+      <%= f.text_field :student_name %>
+    </div>
+    <div class="field">
+      <%= f.label "Отчество" %><br/>
+      <%= f.text_field :student_secondname %>
+    </div>
+    <div class="field">
+      <%= f.label "Группа" %><br/>
+      <%= f.select :student_group, Group.all.collect {|gr| [gr.gr_cipher, gr.id]}, {:include_blank => 'Выберите группу'} %>
+    </div>
+    <div class="field">
+      <%= f.check_box :student_captain %>
+      <%= f.label "Староста" %>
+    </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Добавить студента" %>
   </div>
 <% end %>
+
+

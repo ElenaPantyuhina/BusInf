@@ -1,0 +1,9 @@
+<h1>Специальность</h1>
+<p id="notice"><%= notice %></p>
+<p>Название: <%= @specialty.spec_name %></p>
+<p>Сокращение: <%= @specialty.spec_reduction %></p>
+<p>Кафедра: <%= @specialty.spec_cathedra %></p>
+<p>Описание: <%= @specialty.spec_description %></p>
+
+<%= link_to 'Редактировать', edit_specialty_path(@specialty) %> |
+<%= link_to 'Назад', specialties_path %>

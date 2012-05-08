@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BusInf</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <title><%= title %></title>
   <%= csrf_meta_tags %>
+  <meta charset="utf-8"/>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <%= stylesheet_link_tag    'application', :media => 'screen' %>
+  <!--[if lt IE 8]><%= stylesheet_link_tag 'ie' %><![endif]-->
+  <%= javascript_include_tag "application" %>
+  <meta name="keywords" content="ВятГУ, высшее образование в Кирове, вузы Кирова, кафедра бизнес-информатики, абитуриенты, студеты Кирова, политех, прикладная информатика, бизнес-информатика" inline=""/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 <body>
-
+<div class="head">
+  <a href="http://www.vyatsu.ru"><%= image_tag('embl.jpg', :alt => "Вятский государственный университет") %></a>
+  <%= link_to image_tag('kaf.jpg', :alt => "Кафедра бизнес-информатики"), root_path %>
+</div>
+<div class="contact">
+  <ul id="cont">
+    <li class="first top-level-items">
+      <%= link_to "Контакты", contact_path %>
+    </li>
+    <li class="top-level-items">
+      <%= link_to "Задать вопрос", '#' %>
+    </li>
+  </ul>
+</div>
 <%= yield %>
-
+<%= debug(params) if Rails.env.development? %>
+<div class="basement">
+  <a href="index.html"><%= image_tag('up.png', :alt => "Вверх", :id => "up", :title => "Наверх" ) %></a>
+  © ВятГУ, Кафедра бизнес-информатики, 2012
+</div>
 </body>
 </html>

@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+<% if @user.user_status == "student" %>
+    <p>Привет, <%= @user.user_name %></p>
+    <p>Твой статус: <%= @user.user_status %></p>
+<% else%>
+    <p>Здравствуйте, <%= @user.user_name + ' ' + @user.user_secondname %></p>
+    <p>Ваш статус: <%= @user.user_status %></p>
+<% end %>
+
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

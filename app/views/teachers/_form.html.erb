@@ -11,24 +11,24 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :surname %><br/>
-    <%= f.text_field :surname %>
-  </div>
-  <div class="field">
-    <%= f.label :name %><br/>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :secondname %><br/>
-    <%= f.text_field :secondname %>
-  </div>
-  <div class="field">
-    <%= f.label :cathedra %><br/>
-    <%= f.text_field :cathedra %>
-  </div>
+    <div class="field">
+      <%= f.label "Фамилия" %><br/>
+      <%= f.text_field :teach_surname %>
+    </div>
+    <div class="field">
+      <%= f.label "Имя" %><br/>
+      <%= f.text_field :teach_name %>
+    </div>
+    <div class="field">
+      <%= f.label "Отчество" %><br/>
+      <%= f.text_field :teach_secondname %>
+    </div>
+    <div class="select">
+      <%= f.label "Кафедра" %><br/>
+      <%= f.select :teach_cathedra, Cathedra.all.collect { |c| [c.cath_name, c.id]}, { :include_blank => "Выберите кафедру"} %>
+    </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Сохранить" %>
   </div>
 <% end %>

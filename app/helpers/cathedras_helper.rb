@@ -1,0 +1,2 @@
+module CathedrasHelper
+end

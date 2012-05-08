@@ -1,0 +1,26 @@
+<h1>Список специальностей</h1>
+
+<table>
+  <tr>
+    <th>Название</th>
+    <th>Сокращение</th>
+    <th>Кафедра</th>
+    <th width="150px">Описание</th>
+  </tr>
+
+<% @specialties.each do |specialty| %>
+  <tr>
+    <td><%= specialty.spec_name %></td>
+    <td><%= specialty.spec_reduction %></td>
+    <td><%= specialty.spec_cathedra %></td>
+    <td><%= specialty.spec_description %></td>
+    <td><%= link_to 'Посмотреть', specialty %></td>
+    <td><%= link_to 'Редактировать', edit_specialty_path(specialty) %></td>
+    <td><%= link_to 'Удалить', specialty, confirm: 'Действительно удалить?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Добавить специальность', new_specialty_path %>
